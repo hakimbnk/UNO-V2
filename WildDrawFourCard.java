@@ -17,7 +17,7 @@ public class WildDrawFourCard extends WildCard {
         Color newColor;
         Player currentPlayer = game.getCurrentPlayer();
         if (currentPlayer.getName().equals("Joueur 1")) {
-        System.out.println("Veuillez choisir une couleur (RED, YELLOW, GREEN, BLUE) : ");
+        System.out.print("Veuillez choisir une couleur (RED, YELLOW, GREEN, BLUE) : ");
         while (true) {
             String input = sc.next().toUpperCase();
             if (input.equals("RED")) {
@@ -58,3 +58,4 @@ public class WildDrawFourCard extends WildCard {
         }
     }
 }
+
